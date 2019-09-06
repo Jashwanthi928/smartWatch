@@ -28,60 +28,64 @@ position: absolute;
 width: 299px;
 height: 332px;
 margin:10em;
-background: #5E5757;
+background: #685D5D;
 border-radius: 57px;}
 
 .innerbox{position: absolute;
 width: 259px;
 height: 290px;
 margin:11.3em;
-background: #161010;
+background: #1E1B1B;
 border-radius: 52px;}
 .upperstrap{
-    border-radius: 30%;
-    margin-top:2em;
-    margin-left: 13em;
+    border-radius:150px 150px 0% 0%;
+    margin-top:3.75em;
+    margin-left: 13.8em;
     position: absolute;
-    width: 12em;
-    height: 9em;
-    background: #5E5757;
+   border-bottom: 100px solid #1E1B1B;
+	border-left: 27px solid transparent;
+	border-right: 27px solid transparent;
+	height: 4em;
+	width: 11em;
 }
 .lowerstrap{
-    border-radius: 30%;
-    margin-top:29.5em;
-    margin-left: 13em;
+    border-radius:150px 150px 0% 0%;
+    margin-top:30.7em;
+    margin-left: 13.9em;
+    transform: rotate(179.67deg);
     position: absolute;
-    width: 12em;
-    height: 9em;
-    background: #5E5757;
+   border-bottom: 100px solid #1E1B1B;
+	border-left: 27px solid transparent;
+	border-right: 27px solid transparent;
+	height: 20px;
+	width: 11em;
 }
 #time{
     position: absolute;
 width: 182px;
 height: 61px;
-margin-left: 20%;
+margin-top:1em;
+margin-left: 11%;
 text-align: centre;
-font-family: Roboto;
-font-style: bold;
+font-family: arial;
 font-weight: bold;
-font-size: 64px;
+font-size: 80px;
 line-height: 75px;
 
-color: #F30C0C;
+color: yellow;
 }
 #day{position: absolute;
     width: 46px;
     height: 11px;
-    margin-top:5em;
-    margin-left: 8.5em;
+    margin-top:3.5em;
+    margin-left: 11em;
     text-align: centre;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 14px;
-    
-    color: #EBD0D0;
+    color:white;
 }
 #date{
     position: absolute;
@@ -92,44 +96,70 @@ margin-left:3.5em;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 25px;
+font-size: 15px;
 line-height: 29px;
-
-
-color: #476F40;
+color:white;
 }
 #messageicon{
     position: absolute;
 color:#13EDE0;
-font-size: 1.3em;
-margin-top:5em;
+font-size: 2.5em;
+margin-left:1em;
+
 
 }
 #musicicon{
     position: absolute;
-color:#F30C0C;
-font-size: 1.3em;
-margin-top:6.5em;
+color:red;
+font-size: 2.5em;
+margin-left:3em;
+
 
 }
 #timericon{
     position: absolute;
-color:#FFFBFB;
-font-size: 1.3em;
-margin-top:8em;
+color:white;
+font-size: 2.5em;
+margin-left:5em;
+
 
 }
-.notification{
+/* .notification{
     position: absolute;
 font-family: Roboto;
 font-weight: bold;
 font-size: 1em;
 color: #A38484;
-margin-top:6.5em;
+margin-top:14em;
 margin-left: 2.5em;
 
+} */
+/* .notmessage{
+    position: absolute;
+font-family: Roboto;
+font-weight: normal;
+font-size: 1em;
+color:white;
+margin-top:16em;
+margin-left: 2.5em;
+
+} */
+#menu{
+      position: absolute;
+color:white;
+font-size: 2em;
+margin-top:-1.25em;
+margin-left:3.4em;  
 }
-.notbox1{
+.circle{
+     height: 50px;
+  width: 50px;
+  background-color:purple;
+  border-radius: 50%;
+  margin-top:10.2em;
+  margin-left:6.05em;
+}
+/* .notbox1{
     position: absolute;
 width: 126.61px;
 height: 42px;
@@ -150,4 +180,4 @@ border-radius: 20px;
 transform: rotate(-0.54deg);
 margin-top:12.5em;
 margin-left: 2.5em;
-}
+} */

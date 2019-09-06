@@ -8,7 +8,7 @@ function smartTime(){
   var hour = today.getHours();
   var minute = today.getMinutes();
   var prepand = (hour >= 12)? " PM ":" AM ";
-  hour = (hour >= 12)? hour - 12: hour;
+  hour = (hour > 12)? hour - 12: hour;
   
   if(date<10){
       date='0'+date;
