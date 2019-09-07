@@ -100,34 +100,34 @@
 }
 
 #date{
-position: absolute;
-width: 89px;
-height: 30px;
-margin-top:3em;
-margin-left:3.5em;
-font-family: arial;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 29px;
-color:white;
+    position: absolute;
+    width: 89px;
+    height: 30px;
+    margin-top:3em;
+    margin-left:3.5em;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 29px;
+    color:white;
 }
 #messageicon{
     position: absolute;
-color:#13EDE0;
-font-size: 2.5em;
-margin-left:1em;
-cursor: pointer;
+    color:#13EDE0;
+    font-size: 2.5em;
+    margin-left:1em;
+    cursor: pointer;
 }
 #messageicon:hover{
- color:white;
+    color:white;
 }
 #musicicon{
     position: absolute;
-color:#13EDE0;
-font-size: 2.5em;
-margin-left:3em;
-cursor: pointer;
+    color:#13EDE0;
+    font-size: 2.5em;
+    margin-left:3em;
+    cursor: pointer;
 
 }
 #musicicon:hover{
@@ -136,10 +136,10 @@ cursor: pointer;
 }
 #timericon{
     position: absolute;
-color:#13EDE0;
-font-size: 2.5em;
-margin-left:5em;
-cursor: pointer;
+    color:#13EDE0;
+    font-size: 2.5em;
+    margin-left:5em;
+    cursor: pointer;
 }
 #timericon:hover{
     color:white;
@@ -148,61 +148,184 @@ cursor: pointer;
 }
 #menu{
     position: absolute;
-color:white;
-font-size: 2em;
-margin-top:-1.25em;
-margin-left:3.4em;  
+    color:white;
+    font-size: 2em;
+    margin-top:-1.25em;
+    margin-left:3.4em;  
 }
 #menu:hover{
     color:yellow;
 }
 .circle{
-   height: 50px;
-width: 50px;
-background-color:black;
-border-radius: 50%;
-margin-top:10.2em;
-margin-left:6.05em;
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    border-radius: 50%;
+    margin-top:10.2em;
+    margin-left:6.05em;
 }
 #messageMsg{
     position: absolute;
-color:#13EDE0;
-font-size: 1.5em;
-margin-top:10em;
-margin-left:.5em;
-cursor: pointer;
+    color:#13EDE0;
+    font-size: 1.5em;
+    margin-top:.8em;
+    margin-left:8em;
+    cursor: pointer;
 }
 #musicMsc{
     position: absolute;
-color:red;
-font-size: 1.5em;
-margin-top:10em;
-margin-left:.5em;
-cursor: pointer;
+    color:red;
+    font-size: 1.5em;
+    margin-top:.8em;
+    margin-left:8em;
+    cursor: pointer;
       
 }
 #timertym{
     position: absolute;
     color:white;
     font-size: 1.5em;
-    margin-top:10em;
-    margin-left:.5em;
+    margin-top:.8em;
+    margin-left:8em;
     cursor: pointer;
 }
 #timeMsg{
-       position: absolute;
-width: 18px;
-height: 15px;
-margin-top:1em;
-margin-left: 11%;
-text-align: centre;
-font-family: arial;
-font-weight: bold;
-font-size: 20px;
-line-height: 20px;
-
-color: yellow;
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    margin-top:1em;
+    margin-left: 11%;
+    text-align: centre;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
 }
+#timeMsg{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    margin-top:1em;
+    margin-left: 11%;
+    text-align: centre;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+#timeTim{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    margin-top:1em;
+    margin-left: 11%;
+    text-align: centre;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+#timeMus{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    margin-top:1em;
+    margin-left: 11%;
+    text-align: centre;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+
+}
+#timerTimer{
+    position:absolute;
+    color:red;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top:3em;
+    margin-left:1.4em;
+}
+#start{
+    position:absolute;
+    /* color:white; */
+    border-radius:100% ;
+    border:none;
+    outline:0px;
+    font-family: arial;
+    font-weight: normal;
+    /* font-size: 40px; */
+    height:40px;
+    width:40px;
+    margin-top:14em;
+    margin-left:2.5em;
+}
+#stop{
+    position:absolute;
+    /* color:white; */
+    border-radius:100% ;
+    border:none;
+    outline:0px;
+    font-family: arial;
+    font-weight: normal;
+    /* font-size: 40px; */
+    height:40px;
+    width:40px;
+    margin-top:14em;
+    margin-left:7em;
+}
+#clear{
+    position:absolute;
+    /* color:white; */
+    border-radius:100% ;
+    border:none;
+    outline:0px;
+    font-family: arial;
+    font-weight: normal;
+    /* font-size: 40px; */
+    height:40px;
+    width:40px;
+    margin-top:14em;
+    margin-left:11.5em;
+}
+#play{
+    font-size:2em;
+    margin-left:.15em;
+}
+#pause{
+    font-size:1.5em;
+    /* margin-left:.15em; */
+}
+#reset{
+    font-size:2em;
+    margin-left:-.1em;
+}
+#musicplay{
+    font-size:1.5em;
+    margin-left:.15em;
+    color:red;
+}
+#musicpause{
+    font-size:2em;
+    /* margin-left:.15em; */
+    color:red;
+}
+#musicforward{
+    font-size:2em;
+    /* margin-left:.15em; */
+    color:red;
+}
+#musicbackward{
+    font-size:2em;
+    /* margin-left:.15em; */
+    color:red;
+}
+
 /* #minutes{
     type:text;  
 	border: none; 
