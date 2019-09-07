@@ -247,19 +247,17 @@
     color:red;
     font-family: arial;
     font-weight: normal;
-    font-size: 40px;
-    margin-top:3em;
-    margin-left:1.4em;
+    font-size: 60px;
+    margin-top:1.7em;
+    margin-left:0.25em;
 }
 #start{
     position:absolute;
-    /* color:white; */
     border-radius:100% ;
     border:none;
     outline:0px;
     font-family: arial;
     font-weight: normal;
-    /* font-size: 40px; */
     height:40px;
     width:40px;
     margin-top:14em;
@@ -267,13 +265,11 @@
 }
 #stop{
     position:absolute;
-    /* color:white; */
     border-radius:100% ;
     border:none;
     outline:0px;
     font-family: arial;
     font-weight: normal;
-    /* font-size: 40px; */
     height:40px;
     width:40px;
     margin-top:14em;
@@ -281,13 +277,11 @@
 }
 #clear{
     position:absolute;
-    /* color:white; */
     border-radius:100% ;
     border:none;
     outline:0px;
     font-family: arial;
     font-weight: normal;
-    /* font-size: 40px; */
     height:40px;
     width:40px;
     margin-top:14em;
@@ -299,7 +293,6 @@
 }
 #pause{
     font-size:1.5em;
-    /* margin-left:.15em; */
 }
 #reset{
     font-size:2em;
@@ -310,71 +303,20 @@
     margin-left:.15em;
     color:red;
 }
-#musicpause{
-    font-size:2em;
-    /* margin-left:.15em; */
-    color:red;
-}
 #musicforward{
     font-size:2em;
-    /* margin-left:.15em; */
     color:red;
 }
 #musicbackward{
     font-size:2em;
-    /* margin-left:.15em; */
     color:red;
+} 
+#spotify{
+    margin-left:13px;
+     margin-top:7em;
+}
+#music{
+    background-color:black;
 }
 
-/* #minutes{
-    type:text;  
-	border: none; 
-    font-size: 16px; 
-	font-weight: bold;
-    color: red;
-    font size:5px;
-} */
 
-/* .notification{
-    position: absolute;
-font-family: Roboto;
-font-weight: bold;
-font-size: 1em;
-color: #A38484;
-margin-top:14em;
-margin-left: 2.5em;
-
-} */
-/* .notmessage{
-    position: absolute;
-font-family: Roboto;
-font-weight: normal;
-font-size: 1em;
-color:white;
-margin-top:16em;
-margin-left: 2.5em;
-
-} */
-
-/* .notbox1{
-    position: absolute;
-width: 126.61px;
-height: 42px;
-
-background: #DDCFCF;
-border-radius: 20px;
-transform: rotate(-0.54deg);
-margin-top:8.5em;
-margin-left: 2.5em;
-}
-.notbox2{
-    position: absolute;
-width: 125.65px;
-height: 37.99px;
-
-background: #DDCFCF;
-border-radius: 20px;
-transform: rotate(-0.54deg);
-margin-top:12.5em;
-margin-left: 2.5em;
-} */

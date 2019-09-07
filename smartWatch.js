@@ -1,3 +1,4 @@
+// This is a smart watch which has time, music and message applications
 /*Function to display Day, Date, Time*/
 function smartTime(){
 	var today = new Date();
