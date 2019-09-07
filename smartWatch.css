@@ -318,5 +318,12 @@
 #music{
     background-color:black;
 }
+#accordionExample{
+   height: 3em;
+   width: 13em;
+   border-radius: 70px;
+   margin-top: 4em;
+   margin-left: 1.8em;
+}
 
 
