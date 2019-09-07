@@ -42,7 +42,7 @@
     width: 259px;
     height: 290px;
     margin:11.3em;
-    background: #1E1B1B;
+    background: black;
     border-radius: 52px;
 }
 
@@ -51,7 +51,7 @@
     margin-top:3.75em;
     margin-left: 13.8em;
     position: absolute;
-    border-bottom: 100px solid #1E1B1B;
+    border-bottom: 100px solid black;
 	border-left: 27px solid transparent;
 	border-right: 27px solid transparent;
 	height: 0em;
@@ -64,7 +64,7 @@
     margin-left: 13.9em;
     transform: rotate(179.67deg);
     position: absolute;
-    border-bottom: 100px solid #1E1B1B;
+    border-bottom: 100px solid black;
 	border-left: 27px solid transparent;
 	border-right: 27px solid transparent;
 	height: 20px;
@@ -159,7 +159,7 @@
 .circle{
     height: 50px;
     width: 50px;
-    background-color:black;
+    background-color:#685D5D;
     border-radius: 50%;
     margin-top:10.2em;
     margin-left:6.05em;
