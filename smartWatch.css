@@ -1,8 +1,13 @@
+/* This is a smart watch which has time, music and message applications */
+.row{
+    margin:0 !important;
+}
+
 .title{
     position:relative;
     display:block;
     background-color:#0080FF;
-    height: 97vh;
+    height: 100vh;
     width: 50wh;
     font-size: 3em;
     text-align: center;
@@ -24,37 +29,42 @@
 
 
 .outerbox{
-position: absolute;
-width: 299px;
-height: 332px;
-margin:10em;
-background: #685D5D;
-border-radius: 57px;}
+    position: absolute;
+    width: 299px;
+    height: 332px;
+    margin:10em;
+    background: #685D5D;
+    border-radius: 57px;
+}
 
-.innerbox{position: absolute;
-width: 259px;
-height: 290px;
-margin:11.3em;
-background: #1E1B1B;
-border-radius: 52px;}
+.innerbox{
+    position: absolute;
+    width: 259px;
+    height: 290px;
+    margin:11.3em;
+    background: #1E1B1B;
+    border-radius: 52px;
+}
+
 .upperstrap{
     border-radius:150px 150px 0% 0%;
     margin-top:3.75em;
     margin-left: 13.8em;
     position: absolute;
-   border-bottom: 100px solid #1E1B1B;
+    border-bottom: 100px solid #1E1B1B;
 	border-left: 27px solid transparent;
 	border-right: 27px solid transparent;
-	height: 4em;
+	height: 0em;
 	width: 11em;
 }
+
 .lowerstrap{
     border-radius:150px 150px 0% 0%;
     margin-top:30.7em;
     margin-left: 13.9em;
     transform: rotate(179.67deg);
     position: absolute;
-   border-bottom: 100px solid #1E1B1B;
+    border-bottom: 100px solid #1E1B1B;
 	border-left: 27px solid transparent;
 	border-right: 27px solid transparent;
 	height: 20px;
@@ -62,38 +72,40 @@ border-radius: 52px;}
 }
 #time{
     position: absolute;
-width: 182px;
-height: 61px;
-margin-top:1em;
-margin-left: 11%;
-text-align: centre;
-font-family: arial;
-font-weight: bold;
-font-size: 80px;
-line-height: 75px;
-
-color: yellow;
+    width: 182px;
+    height: 61px;
+    margin-top:1em;
+    margin-left: 11%;
+    text-align: centre;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 75px;
+    color: yellow;
 }
-#day{position: absolute;
+
+#day{
+    position: absolute;
     width: 46px;
     height: 11px;
     margin-top:3.5em;
     margin-left: 11em;
     text-align: centre;
-    font-family: Roboto;
+    font-family: arial;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 14px;
     color:white;
 }
+
 #date{
-    position: absolute;
+position: absolute;
 width: 89px;
 height: 30px;
 margin-top:3em;
 margin-left:3.5em;
-font-family: Roboto;
+font-family: arial;
 font-style: normal;
 font-weight: bold;
 font-size: 15px;
@@ -105,25 +117,101 @@ color:white;
 color:#13EDE0;
 font-size: 2.5em;
 margin-left:1em;
-
-
+cursor: pointer;
+}
+#messageicon:hover{
+ color:white;
 }
 #musicicon{
     position: absolute;
-color:red;
+color:#13EDE0;
 font-size: 2.5em;
 margin-left:3em;
+cursor: pointer;
 
+}
+#musicicon:hover{
+    color:white;
 
 }
 #timericon{
     position: absolute;
-color:white;
+color:#13EDE0;
 font-size: 2.5em;
 margin-left:5em;
+cursor: pointer;
+}
+#timericon:hover{
+    color:white;
 
 
 }
+#menu{
+    position: absolute;
+color:white;
+font-size: 2em;
+margin-top:-1.25em;
+margin-left:3.4em;  
+}
+#menu:hover{
+    color:yellow;
+}
+.circle{
+   height: 50px;
+width: 50px;
+background-color:black;
+border-radius: 50%;
+margin-top:10.2em;
+margin-left:6.05em;
+}
+#messageMsg{
+    position: absolute;
+color:#13EDE0;
+font-size: 1.5em;
+margin-top:10em;
+margin-left:.5em;
+cursor: pointer;
+}
+#musicMsc{
+    position: absolute;
+color:red;
+font-size: 1.5em;
+margin-top:10em;
+margin-left:.5em;
+cursor: pointer;
+      
+}
+#timertym{
+    position: absolute;
+    color:white;
+    font-size: 1.5em;
+    margin-top:10em;
+    margin-left:.5em;
+    cursor: pointer;
+}
+#timeMsg{
+       position: absolute;
+width: 18px;
+height: 15px;
+margin-top:1em;
+margin-left: 11%;
+text-align: centre;
+font-family: arial;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+
+color: yellow;
+}
+/* #minutes{
+    type:text;  
+	border: none; 
+    font-size: 16px; 
+	font-weight: bold;
+    color: red;
+    font size:5px;
+} */
+
 /* .notification{
     position: absolute;
 font-family: Roboto;
@@ -144,21 +232,7 @@ margin-top:16em;
 margin-left: 2.5em;
 
 } */
-#menu{
-      position: absolute;
-color:white;
-font-size: 2em;
-margin-top:-1.25em;
-margin-left:3.4em;  
-}
-.circle{
-     height: 50px;
-  width: 50px;
-  background-color:purple;
-  border-radius: 50%;
-  margin-top:10.2em;
-  margin-left:6.05em;
-}
+
 /* .notbox1{
     position: absolute;
 width: 126.61px;

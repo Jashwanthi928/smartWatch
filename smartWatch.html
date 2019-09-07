@@ -1,3 +1,4 @@
+<!-- This is a smart watch which has time, music and message applications-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,55 +11,60 @@
     <link rel="stylesheet" href="smartWatch.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body onload=smartTime()>
-    
+
+<body onload=smartTime(),countdown()>    
     <div class="row">
         <div class="col-6">
-            <div class="title"><span class="smart">Smart </span> 
-            <span class="watch"> Watch</span></div>
+            <div class="title">
+                <span class="smart">Smart</span> 
+                <span class="watch"> Watch</span>
+            </div>
         </div>
+
         <div class="col-6" >
-        <div class ="outerbox"></div>
-        <div class ="innerbox">
-            <!-- <div class="fa fa-comment" id="messageicon"></div>
-            <div class="fa fa-music" id="musicicon"></div>
-            <div class="fa fa-clock-o" id="timericon"></div> -->
-
-            <div id ="time"></div> 
-        <div id="day"></div> 
-        <div id ="date"></div>
-        <div class ="circle"></div>
-
-                   
-
-        <!-- <div class ="notification">Notifications</div> 
-        <div class ="notmessage">3 new messages</div>  -->
-
-         <p>
-  <a class="fa fa-bars" id=menu data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class ="outerbox"></div>
+            
+            <div class ="innerbox"id="timer">
+                <span class="fa fa-clock-o" id="timertym" ondblclick="messageIcon('hs')"></span>
+                <div> 
+		            <input id="minutes" type="text" style="width: 20px; margin-left:5em; margin-top:8em;
+			            border: none; font-size: 30px; font-weight: bold; color: black;"><font size="5"> : </font> 
+		            <input id="seconds" type="text" style="width: 40px; border: none; font-size: 30px; 
+						font-weight: bold; color: black;"> 
+	            </div> 
+            </div>
+            
+            <div class ="innerbox"id="music">
+                <span class="fa fa-music" id="musicMsc" ondblclick="messageIcon('hs')"></span> 
+            </div>
     
-  </a>
-  
-</p>
-<div class="collapse" id="collapseExample">
-
-    <span class="fa fa-envelope" id="messageicon"></span>
-            <span class="fa fa-music" id="musicicon"></span>
-            <span class="fa fa-clock-o" id="timericon"></span>
-  
-</div>
-
-        <!-- <div class ="notbox1"></div> 
-        <div class ="notbox2"></div>  -->
-
-        </div>
-        <div class ="upperstrap"></div>
-        <div class ="lowerstrap"></div>
-         
+            <div class ="innerbox" id="message" >
+                <span class="fa fa-envelope" id="messageMsg" ondblclick="messageIcon('hs')"></span> 
+                <!-- <div id ="timeMsg"></div>  -->
+            </div>
+    
+            <div class ="innerbox" id="homescreen">
+                <div id ="time"></div> 
+                <div id="day"></div> 
+                <div id ="date"></div>
+                <div class ="circle"></div>
+                <p>
+                    <a class="fa fa-bars" id=menu data-toggle="collapse" href="#collapseExample" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample"></a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <span class="fa fa-envelope" id="messageicon" onclick="messageIcon('me')"></span>
+                    <span class="fa fa-music" id="musicicon" onclick="messageIcon('mu')"></span>
+                    <span class="fa fa-clock-o" id="timericon" onclick="messageIcon('cl')"></span>
+                </div>
+            </div>
         
+            <div class ="upperstrap"></div>
+            <div class ="lowerstrap"></div>  
         </div> 
      </div> 
 </body>
+
 <script type="text/javascript" src="smartWatch.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
