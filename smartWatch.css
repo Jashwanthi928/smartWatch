@@ -1,4 +1,11 @@
 /* This is a smart watch which has time, music and message applications */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 .row{
     margin:0 !important;
 }
@@ -248,7 +255,7 @@
     font-family: arial;
     font-weight: normal;
     font-size: 60px;
-    margin-top:1.7em;
+    margin-top:1em;
     margin-left:0.25em;
 }
 #start{
@@ -260,8 +267,8 @@
     font-weight: normal;
     height:40px;
     width:40px;
-    margin-top:14em;
-    margin-left:2.5em;
+    margin-top:9em;
+    margin-left:1em;
 }
 #stop{
     position:absolute;
@@ -272,8 +279,8 @@
     font-weight: normal;
     height:40px;
     width:40px;
-    margin-top:14em;
-    margin-left:7em;
+    margin-top:9em;
+    margin-left:5em;
 }
 #clear{
     position:absolute;
@@ -284,9 +291,34 @@
     font-weight: normal;
     height:40px;
     width:40px;
-    margin-top:14em;
-    margin-left:11.5em;
+    margin-top:9em;
+    margin-left:9em;
 }
+#lap{
+    position:absolute;
+    border-radius:100% ;
+    border:none;
+    outline:0px;
+    font-family: arial;
+    font-weight: normal;
+    height:40px;
+    width:40px;
+    margin-top:9em;
+    margin-left:13em;
+    font-weight: bold;
+    
+}
+#laps{
+    color:white;
+}
+.listWrapper {
+    max-height:70px;
+    overflow-y:auto;
+    max-width: 100px;
+    margin-top:12em;
+    margin-left:5em;  
+}
+
 #play{
     font-size:2em;
     margin-left:.15em;

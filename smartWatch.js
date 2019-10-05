@@ -72,6 +72,7 @@ function messageIcon(icon){
 			start = document.getElementById('start'),
 			stop = document.getElementById('stop'),
 			clear = document.getElementById('clear'),
+			lap=document.getElementById('lap'),
 			seconds = 0, minutes = 0, hours = 0,
 			t;
 
@@ -91,6 +92,7 @@ function messageIcon(icon){
 			timer();
 		}
 		function timer() {
+			start.style.pointerEvents='none';
 			t = setTimeout(add, 1000);
 		}
 
@@ -100,6 +102,7 @@ function messageIcon(icon){
 
 		/* Stop button */
 		stop.onclick = function() {
+			start.style.pointerEvents='all';
 			clearTimeout(t);
 		}
 
@@ -107,5 +110,9 @@ function messageIcon(icon){
 		clear.onclick = function() {
 			h1.textContent = "00:00:00";
 			seconds = 0; minutes = 0; hours = 0;
+		}
+		lap.onclick=function(){
+			laps.innerHTML+="<li>"+hours+":"+minutes+":"+seconds+"</li>"
+			lap.style.pointerEvents='all';
 		}
 
