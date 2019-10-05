@@ -27,3 +27,6 @@ Create a smartwatch application
 7.when you click timer icon, it will enter into timer app where you can calculte time duration.
 
 8.To come back, double tap on timer icon which is on top of the timer app.
+
+##Link
+https://smart-watch-54e03c.netlify.com/
