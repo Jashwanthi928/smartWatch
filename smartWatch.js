@@ -1,4 +1,5 @@
 // This is a smart watch which has time, music and message applications
+// Author:Jashwanthi
 
 /*Function to display Day, Date, Time*/
 
@@ -32,6 +33,7 @@ function smartTime(){
 			minute=minute;
 		}
 		var t= hour  +':'+ minute;
+		setTimeout(smartTime,1000);
 	document.getElementById('timeMus').innerHTML =t;
 	document.getElementById('timeTim').innerHTML =t;
 	document.getElementById('time').innerHTML =t;
