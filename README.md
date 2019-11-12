@@ -18,15 +18,15 @@ Create a smartwatch application
 
 3. when you click message icon, it will enter into message app.
 
-4.To come back, double tap on message icon which is on top of the messagfe app. 
+4. To come back, double tap on message icon which is on top of the messagfe app. 
 
 5. when you click music icon, it will enter into music app where you can play music.
 
-6.To come back, double tap on music icon which is on top of the music app. 
+6. To come back, double tap on music icon which is on top of the music app. 
 
-7.when you click timer icon, it will enter into timer app where you can calculte time duration.
+7. when you click timer icon, it will enter into timer app where you can calculte time duration.
 
-8.To come back, double tap on timer icon which is on top of the timer app.
+8. To come back, double tap on timer icon which is on top of the timer app.
 
 ## Link
 https://smart-watch-54e03c.netlify.com/
