@@ -32,7 +32,7 @@ Create a smartwatch application
 https://smart-watch-54e03c.netlify.com/
 
 ## Images
-![home](images/home.PNG)
+![home](images/Homescreen.PNG)
 ![menu](images/menu.PNG)
 ![messages](images/messages.PNG)
 ![music](images/music.PNG)
