@@ -18,7 +18,7 @@ Create a smartwatch application
 
 3. when you click message icon, it will enter into message app.
 
-4. To come back, double tap on message icon which is on top of the messagfe app. 
+4. To come back, double tap on message icon which is on top of the message app. 
 
 5. when you click music icon, it will enter into music app where you can play music.
 
