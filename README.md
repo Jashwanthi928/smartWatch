@@ -30,3 +30,10 @@ Create a smartwatch application
 
 ## Link
 https://smart-watch-54e03c.netlify.com/
+
+## Images
+![home](images/Homescreen.PNG)
+![menu](images/menu.PNG)
+![messages](images/messages.PNG)
+![music](images/music.PNG)
+![timer](images/timer.PNG)
